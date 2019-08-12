@@ -1,0 +1,16 @@
+Style/StringLiterals:
+  Enabled: false
+Layout/IndentationWidth:
+  Enabled: false
+Layout/MultilineArrayLineBreaks:
+  Enabled: true
+Layout/MultilineHashKeyLineBreaks:
+  Enabled: true
+Layout/MultilineMethodArgumentLineBreaks:
+  Enabled: true
+Style/InlineComment:
+  Enabled: true
+Style/IpAddresses:
+  Enabled: true
+Style/StringHashKeys:
+  Enabled: true
