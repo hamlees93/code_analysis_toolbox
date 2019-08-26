@@ -1,3 +1,7 @@
+AllCops:
+  Exclude:
+    - 'Gemfile'
+    - 'Gemfile.lock'
 Style/StringLiterals:
   Enabled: false
 Layout/IndentationWidth:
@@ -14,3 +18,5 @@ Style/IpAddresses:
   Enabled: true
 Style/StringHashKeys:
   Enabled: true
+Metrics/LineLength:
+  Enabled: false
