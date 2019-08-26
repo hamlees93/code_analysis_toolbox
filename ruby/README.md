@@ -3,7 +3,7 @@
 ##Installation
 
 ```
-$ gem install rubocop
+$ gem install rubocop rubocop-rails flay
 ```
 
 Copy and paste the .rubocop.yml file into the root of the project.
@@ -13,26 +13,9 @@ Copy and paste the .rubocop.yml file into the root of the project.
 Run the below command from the root of the project.
 
 ```
-$ rubocop
+$ ruby {absolute_path_to_caconventions.rb}
 ```
 ## Additional Docs
 
 * https://docs.rubocop.org/en/stable/
-
-#Code Duplication
-
-##Installation
-
-```
-$ gem install flay ruby2ruby
-```
-
-## Running
-```
-$ flay --diff {path to ruby file}
-```
-
-##Additional Docs
 * http://ruby.sadi.st/Flay.html
-
-

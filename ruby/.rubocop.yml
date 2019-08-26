@@ -1,7 +1,14 @@
+require: rubocop-rails
 AllCops:
   Exclude:
     - 'Gemfile'
     - 'Gemfile.lock'
+    - 'test/**/*'
+    - 'vendor/**/*'
+    - 'storage/**/*'
+    - 'log/**/*'
+    - 'bin/**/*'
+    - 'tmp/**/*'
 Style/StringLiterals:
   Enabled: false
 Layout/IndentationWidth:
